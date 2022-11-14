@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 09 da lista 02</title>
+</head>
+<body>
+    <!-- 9) Efetuar o cálculo e a apresentação do valor de uma prestação em atraso, utilizando a fórmula PRESTACAO=VALOR+((VALOR*TAXA/100) *TEMPO).  -->
+    <script>
+        var v = prompt('Digite o valor da prestação: ')
+        var t = prompt('Digite o valor da taxa: ')
+        var tp = prompt('Digite a quantidade de tempo: ')
+        var valor = parseFloat(v)
+        var taxa = parseFloat(t)
+        var tempo = parseFloat(tp)
+        result = valor + (valor * taxa / 100) * tempo
+        alert(`O valor das prestações será de: R$ ${result}`)
+    </script>
+
+</body>
+</html>

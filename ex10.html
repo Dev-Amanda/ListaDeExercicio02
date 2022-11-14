@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10 da lista 02</title>
+</head>
+<body>
+    <!-- 10) Ler dois valores (inteiros, reais ou caracteres) para as variáveis A e B, e efetuar a troca dos valores de forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores trocados.  -->
+    <script>
+        var valora = prompt("Digite um valor: "); valora = Number(valora)
+        var valorb = prompt("Digite outro valor: "); valorb = Number(valorb)
+        alert(`Primeiro valor: ${valora}, segundo valor: ${valorb}`)
+
+        valorc = valora;
+        valora = valorb;
+        valorb = valorc;
+
+        alert(`Efetuando a troca o 1º Valor passa a valer ${valora} e o 2º valor: passa  a valer ${valorb}.`)
+
+    </script>
+</body>
+</html>
